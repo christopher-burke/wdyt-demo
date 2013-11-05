@@ -2,15 +2,14 @@
 
 ''' Simple quick generation of the CollegeNet WDYT xml file. '''
 
-__author__ = "Christopher James Burke"
-__copyright__ = ""
-__credits__ = ["Christopher James Burke"]
-__license__ = ""
+__author__ = "Christopher J. Burke"
+__credits__ = ["Christopher J. Burke","pymssql"]
 __version__ = "1.0.0"
-__maintainer__ = "Christopher James Burke"
+__maintainer__ = "Christopher J. Burke"
 __email__ = "christopherjamesburke@gmail.com"
-__status__ = "Development" # __status__  one of "Prototype", "Development", or "Production"
+__status__ = "Production" # __status__  one of "Prototype", "Development", or "Production"
 __date__ = "2013/11/05 10:00:52"
+
 
 import pymssql
 from datetime import datetime
